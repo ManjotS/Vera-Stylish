@@ -22,10 +22,11 @@
     
     #top_status_box {
        position: fixed;
+       z-index: 100003;
     }
     
     #modal_overlay {
-        background-color: black;
+        background: url('http://i.imgur.com/eXaBQIG.gif') no-repeat scroll center center black;
         opacity: 0.5;
     }
     
@@ -39,5 +40,10 @@
  
     .appListView {
         border: none;
+    }
+    
+    #create_scene_page_luup_code_textarea {
+        font-family: Consolas, Monaco, Courier, monospace;
+          font-size: 14px;
     }
 }
