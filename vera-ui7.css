@@ -1,0 +1,43 @@
+@-moz-document domain('mios.com'){
+
+    .greySidebar, .leftSidebar {
+        width: 250px;
+    }
+
+    #div_content {
+        width: calc(~'100% - 10px')
+    }
+
+    /*.device_view_device_wrapper {
+        zoom: 80%
+    }*/
+
+    #welcome_container {
+        font-size: 26px;
+    }
+    
+    .logoHolder img {
+       margin: 5px auto;
+    }
+    
+    #top_status_box {
+       position: fixed;
+    }
+    
+    #modal_overlay {
+        background-color: black;
+        opacity: 0.5;
+    }
+    
+    #view_by_favorites_container .select_favorites_title {
+        line-height: 25px;
+    }
+    
+    #view_by_favorites_container device_unpinned {
+        height: 25px;
+    }
+ 
+    .appListView {
+        border: none;
+    }
+}
