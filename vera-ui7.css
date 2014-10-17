@@ -1,4 +1,14 @@
-@-moz-document domain('mios.com'){
+/*******************************************
+
+Vera UI7 improvements
+
+Version: 1.0.1
+
+Source: https://github.com/ManjotS/Vera-Stylish
+
+********************************************/
+
+@-moz-document domain('mios.com'), regexp('https?://192\\.168\\..*'){
 
     .greySidebar, .leftSidebar {
         width: 250px;
@@ -45,5 +55,12 @@
     #create_scene_page_luup_code_textarea {
         font-family: Consolas, Monaco, Courier, monospace;
           font-size: 14px;
+    }
+    
+    .create_scene_select_device_room_device {
+        clear: none !important;
+        float: left !important;
+        width: 45% !important;
+        margin: auto 2.5%;
     }
 }
